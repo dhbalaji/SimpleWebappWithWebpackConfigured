@@ -1,0 +1,30 @@
+{
+  "name": "SimpleWebappWithWebpackConfigured",
+  "version": "1.0.0",
+  "description": "Lets skip the CRA and build our simple webpack powered by our webpack configurations",
+  "main": "index.js",
+  "scripts": {
+    "dev-build": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhbalaji/SimpleWebappWithWebpackConfigured.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhbalaji/SimpleWebappWithWebpackConfigured/issues"
+  },
+  "homepage": "https://github.com/dhbalaji/SimpleWebappWithWebpackConfigured#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
